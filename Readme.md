@@ -8,7 +8,21 @@ O objetivo deste projeto é demonstrar o uso da biblioteca `gTTS` para transform
 
 ## Dependências
 
-Para executar este projeto, é necessário ter Python instalado em sua máquina, assim como a biblioteca `gTTS`. Use o `pip` para instalar as dependências necessárias:
+Para executar este projeto, é necessário ter Python instalado em sua máquina, assim como a biblioteca `gTTS`. Para facilitar a instalação das dependências, utilizamos um arquivo `requirements.txt`.
 
-```bash
-pip install gtts
+### Instalação das Dependências Usando `requirements.txt`
+
+Siga os passos abaixo para instalar as dependências necessárias utilizando o arquivo `requirements.txt`:
+
+1. **Clone o Repositório:**
+   - Se você ainda não clonou o repositório, utilize o comando abaixo:
+     ```bash
+     git clone https://github.com/dev-rafael-santos/dev-rafael-santos-projeto_texto_audio_google.git
+     cd dev-rafael-santos-projeto_texto_audio_google
+     ```
+
+2. **Crie e Ative um Ambiente Virtual (Recomendado):**
+   - A criação de um ambiente virtual ajuda a isolar as dependências do projeto:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # No Windows use: venv\Scripts\activate
